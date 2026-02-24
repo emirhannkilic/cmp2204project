@@ -55,3 +55,42 @@ Install required dependencies:
 ```bash
 pip install pyDes
 pip install PyQt5
+```
+---
+
+## Running the Application
+
+### Modular Terminal Mode
+
+Open separate terminals:
+
+Terminal 1 – Service Announcer
+```bash
+python3 UDPclient.py
+```
+Terminal 2 – Peer Discovery
+```bash
+python3 UDPserver.py
+```
+Terminal 3 – Chat Server
+```bash
+python3 TCPserver.py
+```
+Terminal 4 – Chat Client
+```bash
+python3 TCPclient.py
+```
+### All-in-One Console Version
+```bash
+python3 chatui.py
+```
+---
+## Networking Concepts Demonstrated
+- TCP vs UDP communication
+- Broadcast-based peer discovery
+- Client-server architecture
+- Real-time messaging systems
+---
+## Academic Context
+Developed for:
+### CMP2204 – Introduction to Computer Networks | Bahçeşehir University
